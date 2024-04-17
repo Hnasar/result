@@ -173,7 +173,7 @@ if res1.is_err():
 res1.ok()
 ```
 
-There is a proposed [PEP 724 – Stricter Type Guards](https://peps.python.org/pep-0724/)
+There is a proposed [PEP 742 – Narrowing types with TypeIs](https://peps.python.org/pep-0742/)
 which may allow the `is_ok` and `is_err` type guards to work as expected in
 future versions of Python.
 
